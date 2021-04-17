@@ -1,0 +1,16 @@
+import Listcategory from '../model/Listcategory';
+
+const LISTCATEGORYS = [
+    new Listcategory('1', '1', 'patudi', 'true','₹ 399', 'https://realbharat.org/wp-content/uploads/2018/03/Gujarati-Food-7.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('2', '1', 'patara','true','₹ 289', 'https://i.ndtvimg.com/i/2018-02/patra_620x330_51518071961.jpg','[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('3', '1', 'Masala Dhosa','false','₹ 299', 'https://media1.fdncms.com/chicago/imager/capsicum-chilly-garlic-dosa-sankalp/u/original/5838914/1331821188-sankalp6.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('4', '2', 'panjabi Thali','false','₹ 350', 'https://imgmedia.lbb.in/media/2019/08/5d63b1f925d2a6920bfc1d11_1566814713943.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('5', '2', 'panjabi sarson','true','₹ 699', 'https://i.ndtvimg.com/i/2018-04/saag_620x330_81524645313.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('6', '3', 'Tamil Thali','false', '₹ 229','http://blogstoread.com/wp-content/uploads/2017/12/All-About-Tamil-Cuisine-800x550.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('7', '3', 'Medu vada', 'false'  ,'₹ 299', 'https://desidine2go.com/wp-content/uploads/2015/08/Medhu-Vadai-600x390.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('8', '3', 'Tamil Dosas', 'true'  ,'₹ 599', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMC_wikBK6M2-gdHkVsBU_Q3tIsHjU3XU9hg&usqp=CAU.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('9', '4', 'chinese bhel','false'  ,'₹ 399', 'https://browngirlmagazine.com/wp-content/uploads/2020/03/Add-Some-Color-to-Your-Menu-With-Chinese-Bhel-_7-scaled.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('10', '4', 'chinese manchurian','false','₹ 700', 'https://img-global.cpcdn.com/recipes/95ee1a1a5c4188ac/1200x630cq70/photo.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+    new Listcategory('11', '4', 'Noodles', 'false' ,'₹ 259', 'https://www.whiskaffair.com/wp-content/uploads/2020/03/Hakka-Noodles-2-3.jpg', '[2 Pc patudi + 1 pc manchuriam + shoda + 4 plate manchuriam + 2 vada pav + 2 burger + 2 pasta plate + 1 plate kajukari + 1 bowl icecream ]'),
+];
+export default LISTCATEGORYS;
